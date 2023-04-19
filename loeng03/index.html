@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>Regamine</h1>
+    <form>
+        <label for="fname">Eesnimi</label><br>
+        <input type="text" id="fname" name="fname" required> <br><br>
+
+        <label for="lname">Perkonnanimi</label><br>
+        <input type="text" id="lname" name="lname" required> <br><br>
+
+        <label for="Datemax">Sünnikuupäev</label><br>
+        <input type="date" id="Datemax" max="2019-12-31"> <br><br>
+
+        <label for="SUGU">Vali sugu</label>
+        <select name="SUGU">
+        <option value="Naine">Naine</option>
+        <option value="Mees">Mees</option>
+        <option value="Poiss">Poiss</option>
+        <option value="Tüdruk">Tüdruk</option>
+        </select><br><br>
+
+        <label for="EMAIL">Sisesta oma e-maili aadress</label><br>
+        <input type="email" id="email" required> <br><br>
+
+        <label for="kasutajanimi">Kasutajanimi</label><br>
+        <input type="text" id="kasutajanimi" required> <br><br>
+
+        <label for="parool">parool</label><br>
+        <input type="password" id="parool" minlength="6" required> <br><br>
+
+        <h2>Kas oled tingimustega nõus?</h2>
+        <input type ="checkbox" id="tingimused" required>
+        <label for="tingimused"> JAH </label><br><br>
+        
+        <input type ="checkbox" id="tingimused" required>
+        <label for="tingimused"> EI</label><br><br><br><br>
+
+        <input type="submit"  value="Registreeri">
+        
+        <!--
+            NIMI
+            KASUTAJANIMI
+            PaROOL (MINIMAALSELT 6 TÄHEMÄRKI)
+            EMAIL
+            SÜNNIKUUPÄEV (MINGI KALENDER, MITTE PEALE 2020)
+            SUGU (Dropdown, NAINE/MEES)
+            KAS OLED TINGIMUSTEGA NÕUS? (CHECKBOX, peab olema linnuke)
+            REGISTREERI (NUPP)
+        -->
+    </form>
+    
+</body>
+</html>
+
+        
+
+        
+
+        
+
+
+        
