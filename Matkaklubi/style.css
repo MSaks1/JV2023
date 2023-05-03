@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+   
     
 }
 
@@ -58,27 +59,41 @@ left: -20px;
     text-decoration: none;
 }
 
-    
-.naine > img {
+ .pais > .pealkirjad > .naine {
+    position: absolute;
+    top: -231px;
+    right: -330px;
+    width: 914px;
+    height: 914px;
+    border-radius: 50%;
+    overflow: hidden;
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    z-index: -1;
+}
+    
+
+.veebileht{
+    overflow-x: hidden;
+}
+
+.naine > img {
+    /*display: flex;
+    justify-content: right;*/
    /*justify-content: right;*/
     /*padding: 71px 0px 1px;*/
-    border-radius: 20000px;
-    border: 5px;
-    width: 300px;
-    height: 300px;
+    
+    /*border: 5px;*/
+   
     /*overflow-x: clip;  */
 
    
-    width: 914px;
-    height: 914px;
     /*border: 100px;*/
    
 }
 
 
-.tekst > h1  {
+.pealkirjad > h1  {
 
 padding-top: 338px;
 
@@ -97,19 +112,30 @@ font-size: 33px;
 font-weight: 800;
 text-align: left;
 color: #0B0B0B;
+margin-top: -40px;
 
 }
 
-.tekst > h4 {
+.pealkirjad > h4 {
 width: 477px;
 height: 93px;
 text-align: left;
 color: #0B0B0B;
+margin-top: -15px;
 
 }
-.button {
-   height: 58px;
-   width: 247px;
+.pais > .pealkirjad > button {
+    font-size: 12.5px;
+    line-height: 29.17px;
+    letter-spacing: 2.25px;
+    color: #FFFF;
+    background-color: #0B0B0B;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    cursor: pointer;
+    padding: 13px 22.5px 10px;
+
 }
 
 /*.liblikas1{
