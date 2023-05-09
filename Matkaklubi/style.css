@@ -5,17 +5,18 @@ body {
     
 }
 
+.veebileht{
+    overflow-x: clip;
+}
 
 .pais {
     height: 778px;
-    padding: 32px 76px 142px;
-    background-image: url("pildid/Hills.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: -201.7600860595703px;
-left: -20px;
-
+  padding: 32px 76px 142px;
+  background-image: url("pildid/hills.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 200px;
 
 }
 
@@ -50,94 +51,169 @@ left: -20px;
     font-weight: 700;
     color: #000000;
     text-decoration: none;
-    letter-spacing: 2.87px;
-}
-.pais > nav > .parem > div {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    text-decoration: none;
+    letter-spacing: 2.67px;
 }
 
- .pais > .pealkirjad > .naine {
+.pais > .pealkirjad {
+    text-transform: uppercase;
+  letter-spacing: 0px;
+  color: #0B0B0B;
+  font-weight: 800;
+  position: relative;
+  z-index: 1;
+}
+
+.pais > .pealkirjad > img {
+    position: absolute;
+    left: 531px;
+    top: -55px;
+  }
+  
+  .pais > .pealkirjad > h4 {
+    font-size: 39.57px;
+    line-height: 42.74px;
+    margin-top: 231px;
+  }
+  
+  .pais > .pealkirjad > h3 {
+    font-size: 74.39px;
+    line-height: 42.74px;
+    margin-top: -25px;
+    position: relative;
+  }
+  
+  .pais > .pealkirjad > h3 > img {
+    position: absolute;
+    left: -39px;
+    top: -13px;
+  }
+  
+  .pais > .pealkirjad > h5 {
+    font-size: 20.83px;
+    line-height: 29.17px;
+    margin-top: -15px;
+  }
+  
+  .pais > .pealkirjad > button {
+    font-size: 12.5px;
+    line-height: 29.17px;
+    letter-spacing: 2.5px;
+    color: #FFFFFF;
+    background: #0B0B0B 0% 0% no-repeat padding-box;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 13px 22.5px 10px;
+    z-index: 1;
+  }
+  
+  .pais > .pealkirjad > .tydruk-varjuga > .tydruk {
     position: absolute;
     top: -231px;
     right: -330px;
+    border-radius: 50%;
     width: 914px;
     height: 914px;
-    border-radius: 50%;
     overflow: hidden;
     display: flex;
     justify-content: center;
     z-index: -1;
-}
+  }
+  
+  .pais > .pealkirjad > .tydruk-varjuga > img {
+    position: absolute;
+    right: -427px;
+    bottom: -411px;
+    z-index: -2;
+  }
+
+
+.osa2 > h3{
+    color: gray;
+    font-size: 40px;
+    line-height: 0%;
+    margin-left: 78px;
     
-
-.veebileht{
-    overflow-x: hidden;
 }
-
-.naine > img {
-    /*display: flex;
-    justify-content: right;*/
-   /*justify-content: right;*/
-    /*padding: 71px 0px 1px;*/
-    
-    /*border: 5px;*/
-   
-    /*overflow-x: clip;  */
-
-   
-    /*border: 100px;*/
+.osa2 > h4 {
+    color: #0B0B0B;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.5px;
+    margin-left: 78px;
+    width: 448px;
    
 }
 
-
-.pealkirjad > h1  {
-
-padding-top: 338px;
-
-width: 409px;
-height: 48px;
-font-size: 23px;
-font-weight: 800;
-text-align: left;
-color: #0B0B0B;
+.tekst  {
+    width: 448px;
+    height: 406px;
+    text-align: left;
+    color:gray;
+    margin-left: 39px;
+    margin-top: -30px;
+    font-size: 20.8px;
 }
 
-.tekst > h2 {
-width: 575px;
-height: 91px;
-font-size: 33px;
-font-weight: 800;
-text-align: left;
-color: #0B0B0B;
-margin-top: -40px;
 
-}
-
-.pealkirjad > h4 {
-width: 477px;
-height: 93px;
-text-align: left;
-color: #0B0B0B;
-margin-top: -15px;
-
-}
-.pais > .pealkirjad > button {
-    font-size: 12.5px;
-    line-height: 29.17px;
-    letter-spacing: 2.25px;
-    color: #FFFF;
-    background-color: #0B0B0B;
-    border: none;
-    text-transform: uppercase;
-    font-weight: 900;
-    cursor: pointer;
-    padding: 13px 22.5px 10px;
-
-}
-
-/*.liblikas1{
+.section2 > .fotod{
     display: flex;
-}*/
+    justify-content: center;
+    margin-top: 0px;  
+    width: 940px;
+    
+}
+
+.section2{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 0px;
+    margin-left: 39px;
+}
+
+ .tbinokliga{
+    padding-left: 34px;
+    padding-right: 34px;
+    
+ } 
+.mehed{
+    padding-left: 34px;
+    width: 170px;
+    height: 100%;
+    
+  
+}
+
+
+.noolvasak{
+    height: 40px;
+    width: 78px;
+    font-size: 40px;
+    color: black;
+}
+.noolparem{
+    height: 40px;
+    width: 78px;
+    font-size: 40px;
+    color: gray;
+   
+}
+.lk1 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 34px;
+    height: 40px;
+    text-align: left;
+    font-size: 33.33px;
+    color: black;
+    
+} 
+.kaldkriips {
+    font-size: 21px;
+    color: gray;
+    padding-top: 10px;
+
+   
+}
