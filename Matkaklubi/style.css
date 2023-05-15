@@ -214,6 +214,128 @@ body {
     font-size: 21px;
     color: gray;
     padding-top: 10px;
+}
+.pilttallad{
+  margin-top: 34px;
+  height: 351px;
+  background-image: url("pildid/pilttallad.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 80px;
+ 
+ 
+}
 
+.pilttallad  > .centered{
+ 
+ padding-top: 82px;
+  color: white;
+  font-size: 46px;
+  font-weight: 600;
+  margin-left: 300px;
+}
+.pilttallad > .centered2{
+  position: center;
+  color: white;
+  margin-left: 300px;
+  margin-top: 10px;
+}
+.section3{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.section3 > .altvasak > img{
+  width: 540px;
+  height: 520px;
+  margin-right: 100px;
+  margin-left: 39px;
+  border-radius: 1000%;
+}
+
+.section3 > .altparem{
+  position: center;
+  
+}
+
+.section3 > .altparem > h2 {
+  width: 578px;
+  height: 110px;
+  color:black;
+  font-size: 26px;
+}
+.section3 > .altparem > h6 {
+  color: gray;
+}
+button{
+    font-size: 12.5px;
+    line-height: 29.17px;
+    letter-spacing: 2.5px;
+    color: #FFFFFF;
+    background: #0B0B0B 0% 0% no-repeat padding-box;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 13px 22.5px 10px 10px;
+    z-index: 1;
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-between;
+    background: #F3F3F3 0% 0% no-repeat padding-box;
+    margin-left: 56px;
+    margin-right: 56px;
+    height: 160px;
+    padding-top: 37px;
+    margin-bottom: 37px;
+    padding-left: 58px;
+    padding-right: 58px;
+  
+  }
+  footer > .jalusvasak > .logo2 > img {
+    height: 54px;
+    width: 54px;
+}
+footer> .jalusvasak > .logo2 > h2 {
+    display: flex;
+    margin-top: 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+footer > .jalusvasak > .logo2 {
+  display: flex;
+  justify-content: space-between;
+}
+footer > .jalusvasak > .telefon {
+  
+  height: 40px;
+  width: 125px;
+  background-color: #0B0B0B;
+  color: #FFFFFF;
+  font-size: 12px;
+  margin-top: 0px;
+}
+footer > .jalusparem > .jaluspealkiri > a{
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 2.67px;
+  text-transform: uppercase;
+  size: 16.67px;
    
+   
+}
+footer > .jalusparem >.company{
+  margin-left: -220px;
+  padding-top: 74px;
+}
+footer > .jalusparem .logod{
+ 
+  margin-left: 466px;
+  margin-top: -46px;
+ 
 }
