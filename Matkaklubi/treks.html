@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matkaklubi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="veebileht">
+        <div class="pais">
+            <nav>
+                <div class="vasak">
+                    <img src="pildid/klubilogo.png" alt="Klubi logo" />
+                    <div>Hiking <br>club</div>
+                </div>
+                <div class="parem">
+                <a href="">Home</a>
+                <a href="">Upcoming treks</a>
+                <a href="">Treks for family</a>
+                <a href="">Contact us</a> 
+                </div>
+            </nav>
+           
+                <div class="matkad">
+                
+                </div>
+                    
+
+
+    <footer>
+           
+        <div class="jalusvasak">
+           <div class="logo2">
+            <img src="pildid/klubilogo.png" alt="Klubi logo" />
+            <h2>Hiking <br>club</h2>
+           </div>
+            <div class="telefon">
+            <h2>CALL NOW<br>1800 888 555</h2>
+            </div>   
+             
+        </div>
+        <div class="jalusparem">
+            <div class="jaluspealkiri">
+            <a href="">Home</a>
+            <a href="">Upcoming treks</a>
+            <a href="">Treks for family</a>
+            <a href="">Contact us</a>
+            </div>
+                <div class="company">
+                <h6>© Company Name 2020. All rights reserved.</h6>
+                </div>
+                <div class="logod">
+                <img src="pildid/facebook.png" alt="facebook">
+                <img src="pildid/instagram.png" alt="instagram">
+                <img src="pildid/twitter.png" alt="twitter">
+                <img src="pildid/whatsapp.png" alt="whatsapp">
+                </div>
+                
+                
+              
+        </div>
+
+        
+        </footer>
+
+    </div>               
+        
+       
+          
+    
+    
+              
+   <script src="script.js"></script>
+   <script>
+    async function getTreks() {
+    const treks = await fetch('http://localhost:10000');
+    console.log(treks);
+    }
+    getTreks();
+   </script>
+</body>
+</html>
