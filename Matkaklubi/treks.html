@@ -18,11 +18,11 @@
                     <img src="pildid/klubilogo.png" alt="Klubi logo" />
                     <div>Hiking <br>club</div>
                 </div>
-                <div class="parem">
+                <div  id = "navItems" class="parem">
                 <a href="index.html">Home</a>
                 <a href="treks.html">Upcoming treks</a>
-                <a href="treks.html">Treks for family</a>
-                <a href="treks.html">Contact us</a> 
+                <a href="">Treks for family</a>
+                <a href="">Contact us</a> 
                 </div>
             </nav>
       <div id="matkad">
@@ -38,7 +38,7 @@
 
     async function getTreks() {
       try {
-        const treks = await fetch(`${API_URL}/api/treks`).then((response => response.json()));
+        const treks = await fetch(`${API_URL}/api/trek`).then((response => response.json()));
         matkad.innerHTML = '';
         console.log(treks);
         for (let trek of treks) {
