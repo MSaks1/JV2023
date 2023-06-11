@@ -367,9 +367,7 @@ footer > .jalusparem .logod{
 
 .matk > .sisu {
   padding: 10px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+ 
 }
 
 #matkad {
@@ -377,7 +375,4 @@ footer > .jalusparem .logod{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 15px;
-}
-.matk >.sisu >div:last-child {
-  align-self: flex-end;
 }
