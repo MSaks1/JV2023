@@ -1,5 +1,5 @@
 // const API_URL = 'https://mihkli-matkad-app.onrender.com';
-const API_URL = 'http://localhost:10000';
+const API_URL = 'http://localhost:5070';
 const matkad = document.querySelector('#matkad');
 const uusMatk = document.querySelector('#uus-matk');
 const matkaPaneeliPealkiri = document.querySelector('#matka-paneel-pealkiri');
